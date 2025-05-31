@@ -1,12 +1,31 @@
 <?php
-echo "Hello, World! This is Day 01 of the PHP course.";
-// This is a simple PHP script to demonstrate the basic syntax and output.
+// This is the start of a PHP script.
+
+// echo is used to output text to the screen.
+echo "Hello, World! This is Day 01 of the PHP course. \n";
+
+// var_dump is used to display structured information about one or more variables.
 var_dump("This is a test string.");
-// You can run this script in a local server environment or any PHP interpreter.
-// Make sure to save this file with a .php extension and access it through a web server.
-// For example, if you save this file as index.php, you can access it via http://localhost/index.php
-// You can also use PHP's built-in server by running the command: php -S localhost:8000
 
+// print is another way to output text, similar to echo.
+print("hello world \n");
 
+// printf is used to output formatted strings.
+printf("Hello", "World \n");
 
+//print_r is used to print human-readable information about a variable.
+print_r("This is an other way to print. \n");
 
+//set the default timezone to Asia/Kabul
+date_default_timezone_set('Asia/Kabul');
+
+// date function is used to format the current date and time.
+echo date("The Date is :" . 'd-m-Y H:i:s' . "\n");
+
+// you can also use this format or any other way you want to use
+echo date('Y-m-d H:i:s');
+
+// d is for day of the month, m is for month, Y is for year,
+// H is for hour in 24-hour format, i is for minutes, and s is for seconds.
+// The date function is used to display the current date and time.
+//This is the end of the PHP script.
