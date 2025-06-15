@@ -8,10 +8,11 @@
     <h1>Guestbook</h1>
 
     <!-- Guestbook Form -->
-    <form action="" method="POST">
-        Name:
+    <form method="POST">
+        <label for="name">Name:</label>
          <input type="text" name="name" required><br><br>
-        Message: <br>
+         <label for="message">Message:</label>
+       <br>
         <textarea name="message" rows="4" cols="40" required></textarea><br><br>
         <input type="submit" name="submit" value="Sign Guestbook">
     </form>
